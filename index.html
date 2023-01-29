@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+         <div class="form-info">
+            <h2>This is a sample form used only to practice JavaScript form validation.</h2>
+        </div>
+        <form action="">
+            <div class="inputs">
+                <div class="email">
+                    <input 
+                        required
+                        type="email"
+                        class="form-input"
+                        id="email"
+                        placeholder="Email">
+                    <label for="email" class="form-label">Email:</label>
+                </div>
+                <div class="country">
+                    <input 
+                        required
+                        type="text"
+                        class="form-input"
+                        id="country"
+                        placeholder="Country">
+                    <label for="country" class="form-label">Country:</label>
+                </div>
+                <div class="zip-code">
+                    <input 
+                        required
+                        type="text"
+                        class="form-input"
+                        id="zip-code"
+                        placeholder="Zip Code">
+                    <label for="zip-code" class="form-label">Zip Code:</label>
+                </div>
+                <div class="password">
+                    <input 
+                        required
+                        type="password"
+                        class="form-input"
+                        id="password"
+                        placeholder="Password">
+                    <label for="password" class="form-label">Password:</label>
+                </div>
+                <div class="confirm-password">
+                    <input 
+                        required
+                        type="text"
+                        class="form-input"
+                        id="confirm-password"
+                        placeholder="Confirm Password">
+                    <label for="confirm-password" class="form-label">Confirm Password:</label>
+                </div>
+                <div class="form-end">
+                    <div class="errorMessage">
+                    </div>
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
